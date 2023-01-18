@@ -199,10 +199,13 @@ button{
     color: white;
 }
 @media (max-width: 1000px){
+    header{
+        width: 100%;
+    }
     main{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: max-content;
     }
     section{
         display: flex;
